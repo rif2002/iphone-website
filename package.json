@@ -1,5 +1,6 @@
 {
   "name": "iphone",
+  "homepage":"https://rif2002.github.io/iphone-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pre-deploy": "npm run buid",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
