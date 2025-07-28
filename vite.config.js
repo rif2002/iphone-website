@@ -8,7 +8,7 @@ export default defineConfig({
     org: "jsm-j9",
     project: "javascript-react"
   })],
-  base:"/iphone-website",
+  base:"/iphone-website/",
 
   build: {
     sourcemap: true
